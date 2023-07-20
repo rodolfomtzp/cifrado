@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrador</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:ital,wght@0,100;0,400;0,700;1,300;1,500;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="images/Logo.png" alt="Logo de Alura">
+        </header>
+
+        <main>
+            <section>
+                <textarea class="text-area" name="texto" id="texto" cols="20" rows="10" placeholder="Ingrese aqui el texto"></textarea>
+            
+                <div>
+                    <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-cifrar" onclick="btnCifrar()">Cifar</button>
+                    <button class="btn-descifrar" onclick="btnDesCifrar()">Descifrar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" name="mensaje" id="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <script src="js/script.js"></script>
+      
+</body>
+</html>
